@@ -4,6 +4,18 @@
 
 I'm Ezequiel, a passionate Software Engineer based in Spain with a deep love for creating projects and exploring diverse technologies. This GitHub repository serves as my personal portfolio, showcasing a selection of my work, skills, and accomplishments. My projects are built using React and Next.js, reflecting my commitment to crafting clean, efficient code and following industry best practices.
 
+<!-- Status badges -->
+
+<p align="center">
+    <a href="https://github.com/ichibytes/ichibytes.dev/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/license-GPL_3.0-blue" alt="Ichibytes.dev is released under the GPL-3.0 license." />
+    </a>
+    <a href="https://jenkins.ichibytes.dev/job/ichibytes/job/ichibytes.dev/job/main/1/">
+        <img src="https://jenkins.ichibytes.dev/buildStatus/icon?job=ichibytes%2Fichibytes.dev%2Fmain&build=1" alt="Build Status" />
+    </a>
+</p>
+
+
 <!-- Some background about the project -->
 
 ## About Ichibytes
