@@ -13,8 +13,10 @@ I'm Ezequiel, a passionate Software Engineer based in Spain with a deep love for
     <a href="https://jenkins.ichibytes.dev/job/ichibytes/job/ichibytes.dev/job/main/">
         <img src="https://jenkins.ichibytes.dev/buildStatus/icon?job=ichibytes%2Fichibytes.dev%2Fmain" alt="Build Status" />
     </a>
+    <a href="https://sonarqube.ichibytes.dev/dashboard?id=ichibytes.dev">
+        <img src="https://sonarqube.ichibytes.dev/api/project_badges/measure?project=ichibytes.dev&metric=alert_status&token=sqb_b43cec637faadc20a292109fee8885e96ef4b6c2" alt="Build Status" />
+    </a>
 </p>
-
 
 <!-- Some background about the project -->
 
