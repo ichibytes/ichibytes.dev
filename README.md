@@ -23,7 +23,7 @@ I'm Ezequiel, a passionate Software Engineer based in Spain with a deep love for
 ## About Ichibytes
 
 <!-- TODO: Add after deployment -->
-<!-- This portfolio is hosted on [🌐 https://ichibytes.dev](https://ichibytes.dev). -->
+This portfolio is hosted on [🌐 https://ichibytes.dev](https://ichibytes.dev). See it evolve in real-time as I continue to add new projects and features.
 
 Ichibytes is a personal portfolio showcasing my work as a Software Engineer. It is built using React and Next.js, and it is self-hosted. The domain name was inspired by my love for Japanese culture and the word "_ichiban_", which means "_number one_" or "_the best._" I strive to be the best software engineer I can be, and I hope to share my passion for coding with others through my projects.
 
@@ -60,6 +60,7 @@ As a Software Engineer, I specialize in:
 - JavaScript
 - HTML
 - CSS
+- Docker
 
 <!-- Some contact info -->
 
