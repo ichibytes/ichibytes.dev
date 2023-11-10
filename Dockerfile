@@ -4,11 +4,11 @@ WORKDIR /app
 
 COPY package.json package-lock.json ./
 
-RUN npm install --frozen-lockfile
+RUN npm install --omit=dev
 
 COPY . .
 
-RUN npm prune --production
+RUN npm run build
 
 FROM node:alpine
 
