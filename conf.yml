@@ -1,2 +1,4 @@
+repoName: "portfolio"
+
 ## SonarQube configuration
 sonarSource: "src/"
