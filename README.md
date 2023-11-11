@@ -61,6 +61,7 @@ As a Software Engineer, I specialize in:
 - HTML
 - CSS
 - Docker
+- Jenkins
 
 <!-- Some contact info -->
 
