@@ -7,8 +7,9 @@ export default function Home() {
       <Image
         src='/images/banner.png'
         alt='Ichibytes'
-        width={1280}
-        height={640}
+        layout='responsive'
+        width={100}
+        height={100}
       />
     </main>
   );
