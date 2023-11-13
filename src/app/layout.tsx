@@ -16,6 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <script defer data-domain="ichibytes.dev" src="https://plausible.ichibytes.dev/js/script.js"></script>
       <body className={inter.className}>{children}</body>
     </html>
   )
