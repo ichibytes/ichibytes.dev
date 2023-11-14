@@ -1,0 +1,36 @@
+@use 'abstracts' as *;
+@use 'vendors';
+@use 'utilities';
+@use 'components';
+@use 'pages';
+@use 'themes';
+@use 'layout';
+
+/* Create styles for a landing page in dark mode, knowing that the logo has yellow and cream colours. */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  min-block-size: 100vh;
+  font-family: system-ui;
+  background: linear-gradient(45deg, $background 0%, $background 50%);
+}
+
+.main__image{
+  width: 100%;
+  height: auto;
+  max-inline-size: 600px;
+  margin-block: 2rem;
+}
+
+.brand-logo-image {
+  border-radius: 50%;
+  background-color: $color-primary;
+}

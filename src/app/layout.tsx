@@ -1,23 +1,27 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import '@/styles/globals.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import type { Metadata } from 'next';
+import NavBar from '@components/NavBar';
+import TrackingCode from '@components/TrackingCode';
+import Footer from '../components/Footer';
+import '@/styles/style.scss';
 
 export const metadata: Metadata = {
-  title: 'Ichibytes',
-  description: 'Ezequiel\'s personal website',
-}
+  title: 'Ichibytes.dev',
+  description: "Ezequiel's personal website",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <script defer data-domain="ichibytes.dev" src="https://plausible.ichibytes.dev/js/script.js"></script>
-      <body className={inter.className}>{children}</body>
+    <html lang='en'>
+      <body>
+        <NavBar />
+        {children}
+        <Footer />
+      </body>
+      <TrackingCode />
     </html>
-  )
+  );
 }
