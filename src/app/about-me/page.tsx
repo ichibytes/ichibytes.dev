@@ -1,8 +1,6 @@
-import styles from '@/styles/page.module.css';
-
 export default function AboutMe() {
   return (
-    <main className={styles.main}>
+    <main className='main'>
       <h1>About Me</h1>
       <p>
         I'm a software developer from Spain. I'm currently working on a

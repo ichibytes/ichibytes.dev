@@ -1,15 +1,16 @@
 import Image from 'next/image';
-import styles from '@/styles/page.module.css';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className="main">
       <Image
         src='/images/banner.png'
         alt='Ichibytes'
-        layout='responsive'
-        width={100}
-        height={100}
+        width={0}
+        height={0}
+        sizes='100vw'
+        className='main__image'
+        priority
       />
     </main>
   );

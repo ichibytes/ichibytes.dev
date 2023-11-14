@@ -62,6 +62,9 @@ As a Software Engineer, I specialize in:
 - CSS
 - Docker
 - Jenkins
+- SonarQube
+- Sass
+- React Icons
 
 <!-- Some contact info -->
 

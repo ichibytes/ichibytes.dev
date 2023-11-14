@@ -1,0 +1,126 @@
+@import '../abstracts/colors';
+@import '../abstracts/variables';
+
+.navbar {
+  display: flex;
+  flex-flow: column;
+  width: 100vw;
+  position: fixed;
+  background-color: $background-medium;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: auto;
+    padding-inline: 1rem;
+    border-bottom: 1px solid $color-primary;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+    &__content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding-block: 0.4rem;
+
+      &__left {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+
+        &__brand-logo {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          margin-inline: 1rem;
+          text-decoration: none;
+
+          &__image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+          }
+        }
+
+        &__title {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          margin-inline: 1rem;
+          color: $text-dark;
+          font-size: 1.5rem;
+          font-weight: 600;
+          color: $text;
+        }
+      }
+
+      &__right {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        &__nav {
+          display: flex;
+          align-items: center;
+          width: 100%;
+
+          &__list {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            list-style: none;
+            align-items: center;
+
+            &__item {
+              display: flex;
+              align-items: center;
+              margin-inline: 1rem;
+
+              &__link {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                color: $text-dark;
+                font-size: 1.2rem;
+                font-weight: 600;
+                text-decoration: none;
+
+                &:hover {
+                  color: $text;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Responsive nav bar
+@media screen and (max-width: $lg-breakpoint) {
+  .navbar {
+     &__header{
+            display: flex;
+            align-items: center;
+        justify-content: center;
+         &__content{
+            display: flex;
+            align-items: center;
+            width: auto;
+            &__left{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            &__right{
+                display: none;
+            }
+         }
+     }
+  }
+}

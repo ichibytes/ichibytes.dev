@@ -1,0 +1,31 @@
+@import '../abstracts/colors';
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: $background-medium;
+
+    &__copyright {
+        display: flex;
+        height: 40px;
+
+        & p {
+            margin: 0;
+            font-size: 14px;
+            color: #878787;
+        }
+
+        & p a {
+            color: $color-primary;
+            text-decoration: none;
+        }
+
+        &__text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+}
